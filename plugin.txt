@@ -1,6 +1,5 @@
-﻿
+pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html ﻿
 torchtext==0.6.0
-torchvision==0.6.0
 jupyter==1.0.0
 pandas==1.0.3
 pandarallel==1.4.8
@@ -12,7 +11,6 @@ sonopy==0.1.2
 flask
 pytorch-lightning
 tabulate
-torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html 
 opencv-python          
 Pillow                 
 PyYAML                 
