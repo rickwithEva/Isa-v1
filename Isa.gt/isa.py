@@ -61,7 +61,7 @@ def interact_model(
             context=context,
             batch_size=batch_size,
             temperature=temperature, top_k=top_k, top_p=top_p
-        )w
+        )
 
         saver = tf.train.Saver()
         ckpt = tf.train.latest_checkpoint(os.path.join('models', model_name))
